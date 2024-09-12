@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+    <meta name="author" content="Kyle Shanahan">
+    <meta name="conceptArtist" content="Steven Rojas">
+    <title>Manage Market</title>
+	  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Market</h1>
+        <div class="profile">
+            <img src="profile-picture.jpg" alt="Profile Picture" style="border-radius: 50%; width: 50px;">
+            <p>Email<br><a href="#">Profile</a></p>
+        </div>
+        <div class="item">
+            <span>ABC</span>
+            <span class="price">$35.55</span>
+        </div>
+        <div class="item">
+            <span>XYZ</span>
+            <span class="price">$25.64</span>
+        </div>
+    </div>
+
+</body>
+</html>
