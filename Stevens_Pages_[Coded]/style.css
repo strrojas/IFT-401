@@ -24,11 +24,13 @@ body {
 .container {
     text-align: center;
     margin-top: 20px;
+    float: left;
+    width: auto;
 }
 
 .profile img {
     border-radius: 50%;
-    width: 50px;
+    width: 10px;
     margin-bottom: 10px;
 }
 
@@ -36,7 +38,7 @@ body {
     margin: 0;
 }
 
-.card, .login-box {
+.card, .login-box, .manage-box, {
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 8px;
@@ -96,4 +98,23 @@ label {
 
 label input {
     margin-right: 5px;
+}
+
+#autologin{
+    width:auto;
+    float:left;
+}
+
+#check{
+    float:left;
+    width:20px;
+}
+
+.admin{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: auto;
+    text-align: left;
+    margin-bottom: 20px;
 }
