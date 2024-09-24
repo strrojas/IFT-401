@@ -38,7 +38,7 @@ body {
     margin: 0;
 }
 
-.card, .login-box, .manage-box, {
+.card, .login-box, .manage-box {
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 8px;
